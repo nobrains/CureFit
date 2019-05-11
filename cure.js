@@ -75,14 +75,10 @@ const https = require('https'),
 * You will see it being sent in each and every API request
 * */
 const commonHeaders = {
-    // "lon": "77.71224454605304",
     "accept": "application/json",
     "st": config.st,
-    // "if-none-match": "W/\"bbf-fmuX/H6qE47YySIND0se5gCNyf8\"",
     "at": config.at,
-    // "lat": "12.952832448802068",
-    "osname": config.osName,
-    // "cache-control": "no-cache"
+    "osname": config.osName
 };
 const CURE_FIT_HOST = "www.cure.fit";
 const URI = {
